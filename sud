@@ -1,5 +1,5 @@
 class Config:
-    # Application Details
+     Application Details
     BASE_URL = "https://example.com"
 
     # Browser Configuration

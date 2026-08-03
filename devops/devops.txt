@@ -1,1 +1,28 @@
-Hello india
+class Config:
+    # Application Details
+    BASE_URL = "https://example.com"
+
+    # Browser Configuration
+    BROWSER = "chrome"      # chrome, firefox, edge
+    HEADLESS = False
+
+    # Login Credentials
+    USERNAME = "admin"
+    PASSWORD = "admin123"
+
+    # Wait Settings
+    IMPLICIT_WAIT = 10
+    EXPLICIT_WAIT = 20
+
+    # Paths
+    SCREENSHOT_PATH = "./screenshots/"
+    DOWNLOAD_PATH = "./downloads/"
+
+    # Environment
+    ENV = "QA"
+
+    # Logging
+    LOG_LEVEL = "INFO"
+
+    # Retry Settings
+    MAX_RETRIES = 3
